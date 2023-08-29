@@ -1,0 +1,56 @@
+baseURL = "http://almenal.com/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Alvaro Mendoza"
+theme = "gokarna"
+enableRobotsTXT = true
+
+[menu]
+  # Check the documentation here: 
+  # https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/#installation
+  [[menu.main]]
+    name = "Posts"
+    identifier = "posts"
+    url = "/posts/"
+    pre = "<span data-feather='pen-tool'></span>"
+    post = ""
+    weight = 1
+
+  [[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    url = "/tags/"
+    pre = "<span data-feather='tag'></span>"
+    weight = 2
+    
+  [[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    url = "/projects/main/"
+    pre = "<span data-feather='aperture'></span>"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/almenal"
+    pre = "<span data-feather='github'></span>"
+    weight = 4
+
+[params]
+  # Landing page stuff
+  # '/images' is relative to proj-dir/static/
+  avatarURL = "/images/profile-picture.jpg"
+  avatarSize = "size-m"
+  description = "Data plumber, software enthusiast"
+  showPostsOnHomePage = "recent"
+  footer = ""
+
+  # Posts config
+  togglePreviousAndNextButtons = "true"
+  socialIcons = [
+    {name = "twitter", url = "https://twitter.com/almenal99"},   
+    {name = "linkedin", url = "https://linkedin.com/in/almenal99"},
+    {name = "mastodon", url = "https://fosstodon.org/@almenal99"},
+  ]
+
+
