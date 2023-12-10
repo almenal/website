@@ -6,7 +6,8 @@ type: "page"
 
 This is a non-comprehensive list of things I've done
 
-- Mutual cake
-- Sainsbury's scraper
-- Take-me-home
+
+- [Mutual cake](https://github.com/almenal/mutual-cake)
+- [Get-me-home](https://github.com/almenal/get-me-home)
+- [Valebulary](https://github.com/almenal/valebulary)
 
