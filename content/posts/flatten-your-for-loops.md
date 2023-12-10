@@ -1,5 +1,5 @@
 ---
-title: "Flatten Your for Loops"
+title: "Flatten your nested for loops"
 date: 2023-12-10T21:35:40Z
 type: "post"
 tags: ["python"]
@@ -52,6 +52,7 @@ As soon as you go back, the block, or “thing” is over.
 Python links the horizontal structure of the code and the flow of the program. 
 
 Triple nested loops like the one above is a single child wearing three trenchcoats.
+
 They are not three things, they are just one:
 applying a function to every combination of possible arguments.
 It doesn’t matter the order in which the arguments are iterated, as long as we do all of them.
@@ -69,8 +70,8 @@ but generates them dynamically at each iteration.
 So whether your lists are tiny or massive, you won’t suffer from combinatorial explosion 
 (at least not at the for loop level).
 
->  Shoutout to Julia for letting you define these sort of nested for loops in one line.
-[link to julia docs](https://docs.julialang.org/en/v1/manual/control-flow/#man-loops)
+>  Shoutout to Julia for letting you define these sort of 
+[nested for loops in one line.](https://docs.julialang.org/en/v1/manual/control-flow/#man-loops)
 
 ## Reason 2: progress bars
 
