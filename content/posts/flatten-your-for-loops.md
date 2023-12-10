@@ -1,7 +1,8 @@
 ---
 title: "Flatten Your for Loops"
 date: 2023-12-10T21:35:40Z
-draft: true
+type: "post"
+tags: ["python"]
 ---
 
 
